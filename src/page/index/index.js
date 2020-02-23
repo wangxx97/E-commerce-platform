@@ -1,5 +1,11 @@
 'use strict';
 
+require('page/common/nav/index.js');
+var _mm = require('util/mm.js');
+
+
+
+
 /*!!!!!!!!!!!!!!!!!!!!!!!!!*/
 // var $ = require('jquery');
 // $('body').html('HELLO INDEX');
@@ -11,8 +17,8 @@
 // require('./index.css');
 // require('../module.js');
 
-var _mm = require('util/mm');
 // alert(123);
+
 
 // _mm.request({
 //     url: './test.do',

@@ -7,8 +7,12 @@
 
 
 <body>
+<%= require('html-loader!./layout/nav.html') %>
 
-<i class="fa fa-user"></i>
+<div>
+    <i class="fa fa-user"></i>
+</div>
+<%= require('html-loader!./layout/footer.html') %>
 
 <!--<div>-->
 <!--    <a href="" class="link">test</a>-->
@@ -24,7 +28,7 @@
 <!---->
 
 <!--hello 王熙鑫-->
-<%= require('html-loader!./layout/footer.html') %>
+<!--<%= require('html-loader!./layout/footer.html') %>-->
 <!--<script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>-->
 <!--<script type="text/javascript" src="../../dist/js/base.js"></script>-->
 <!--<script type="text/javascript" src="../../dist/js/index.js"></script>-->
