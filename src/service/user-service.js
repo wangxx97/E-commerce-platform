@@ -1,4 +1,4 @@
-'use strict';
+ 'use strict';
 
 var _mm = require('util/mm.js');
 
